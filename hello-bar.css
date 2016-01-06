@@ -1,0 +1,54 @@
+#message {
+display: none;
+background-color: #333;      
+padding: 16px 0 20px 0;   
+text-align: center;   
+color: #DDD;   
+position: absolute;   
+left: 0px;   
+top: 0px;   
+width: 100%;
+border-bottom: 1px solid #292929;
+z-index: 2;
+}
+
+.hello-button {-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+border-radius: 2px;
+text-align: center;
+font-size: 14px;
+margin-top: 10px;
+margin-left: 10px;
+padding: 8px 16px;
+font-weight: 400;
+background-color: #f05555;
+background-image: none;
+color: #fff;
+border: none;
+cursor: pointer;
+font-family: Lato,Sans-Serif;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#close-notify {
+text-decoration:none;
+display:inline-block;
+float:right;
+padding-right:10px;
+color:#ddd;
+cursor: pointer;
+}
+
+#message a.cta_button {
+margin-left:10px;
+}
+
+#message a.cta_button:hover {color:#78B2CA;}
+
+@media screen and (max-width: 780px) {
+    #message{display:none !important; }
+}
